@@ -1,0 +1,29 @@
+{
+    "name": "bggardner/oauth2-digikey",
+    "description": "Digi-Key OAuth 2.0 Client Provider for the PHP League OAuth2-Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brent Gardner",
+            "email": "brent@ebrent.net",
+            "homepage": "https://github.com/bggardner"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authorisation",
+        "digikey",
+        "digi-key"
+    ],
+    "require": {
+        "league/oauth2-client": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bggardner\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
