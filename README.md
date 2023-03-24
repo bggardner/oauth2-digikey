@@ -7,7 +7,7 @@ This package provides Digi-Key OAuth 2.0 support for the PHP League's [OAuth 2.0
 To install, use composer:
 
 ```
-composer require bggardner/oauth2-digikey
+composer require bggardner/oauth2-digikey:dev-master
 ```
 
 ## Usage
