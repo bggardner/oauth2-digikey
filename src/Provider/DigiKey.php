@@ -65,7 +65,7 @@ class DigiKey extends AbstractProvider
      */
     public function getBaseAuthorizationUrl()
     {
-        return $this->getWebAppUrl().'/v1/oauth2/authorize';
+        return $this->getApiUrl().'/v1/oauth2/authorize';
     }
 
     /**
