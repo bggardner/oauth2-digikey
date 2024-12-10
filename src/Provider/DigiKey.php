@@ -57,7 +57,7 @@ class DigiKey extends AbstractProvider
      */
     protected function getApiUrl()
     {
-        return (bool) $this->isSandbox ? 'https://sandbox-api.sandbox.paypal.com' : 'https://api.digikey.com';
+        return (bool) $this->isSandbox ? 'https://sandbox-api.digikey.com' : 'https://api.digikey.com';
     }
 
     /**
